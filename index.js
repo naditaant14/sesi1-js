@@ -1,5 +1,7 @@
-const nama = "nadita";
-let hobi = "drakoran";
-hobi = "main";
+const nama = "nadita cantik";
 
-console.log(` ${nama} ${hobi} `);
+function getNama() {
+    return nama;
+}
+
+console.log(getNama());
